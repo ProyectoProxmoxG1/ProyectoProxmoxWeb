@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="title" content="Ultimatix">
+	<meta name="description" content="Grupo 1 de DAW 2.">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <title>Ultimatix</title>
+    <link rel="stylesheet" href="fonts/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<a href="#menu" class="up-button bounceIn"><img src="img/menu-button.png"></a>
+	<img src="img/ultimatix-logo.png" class="logo bounceIn">
+	<section id="menu">
+		<ul class="menu">
+			<li><a href="index.html">Introducción</a></li>
+			<li><a href="instalacion-proxmox.html">Instalación Proxmox</a></li>
+			<li><a href="instalacion-contenedores.html">Instalación Contenedores</a></li>
+			<li><a href="instalacion-LAMP.html">Instalación LAMP</a></li>
+			<li><a href="instalacion-GIT.html">Intalación GIT</a></li>
+		</ul>
+	</section>
+	<section>
+		<h1>¿Qué es Proxmox?</h1>
+			<p>Proxmox es un software que permite la creación y gestión de maquinas virtuales OpenVZ y KVM para la visualización de entorno servidor.</p>
+			<p>Dispone de una versión de pago con algunas complementos, dependiendo del tipo de suscripción que se elija, y otra gratuita.</p>
+			<img src="img/que-es.png">
+			<p>Para desarrollar nuestro proyecto utilizaremos la versión gratuita, puesto que proporciona todo lo que necesitamos para la realización del reto.</p>
+			<h1>Requerimientos:</h1>
+			<p>Se pueden consultar sus requerimientos en su <a href=" https://www.proxmox.com/en/proxmox-ve/requirements">sitio web oficial</a>.</p>
+			<p>Hardware Recomendado:</p>
+			<ul class="list-data">
+				<li>CPU: 64bit (Intel EMT64 o AMD64)</li>
+				<li>CPU/PlacaBase que soporte Intel VT/AMD-V (para soporte de KVM Full Virtualization)</li>
+				<li>Hardware RAID con baterías protegidas, caché de escritura (BBU) o protección contra flash.</li>
+				<li>Discos duros rápidos, mejores resultados con 15k rpm SAS, Raid10.</li>
+				<li>Dos o más Gbit NIC (para vinculación), NIC adicionales según la tecnología de almacenamiento preferida y la configuración del clúster.</li>
+			</ul>
+			<p>Hardware Mínimo:</p>
+			<ul class="list-data">
+				<li>CPU: 64bit (Intel EMT64 o AMD64)</li>
+				<li>CPU/PlacaBase que soporte Intel VT/AMD-V (para soporte de KVM Full Virtualization)</li>
+				<li>1 GB RAM minimo</li>
+				<li>Unidad de Disco Duro</li>
+				<li>NIC (Controlador de Interfaz de Red)</li>
+			</ul>
+			<p>Medios de Instalación:</p>
+			<ul class="list-data">
+				<li>Se puede bajar la ISO de <a href="https://www.proxmox.com/en/downloads">la siguiente pagina</a></li>
+				<li>Se puede Instalar mediante CD/DVD, instalar sobre Debian o desde un USB</li>
+				<li>CD/DVD</li>
+			</ul>
+			<p>Se inserta el disco y tras arrancar el instalador se elije la opción de Install Proxmox VE (instalación normal).</p>
+			<p>Después bastara con seguir los pasos y rellenar los campos necesarios para la <a href="https://pve.proxmox.com/wiki/Installation">configuración</a>.</p>
+			<p>Es necesario un USB de mínimo 1GB de memoria. Tenga en cuenta que se borraran todos los datos que contenga.</p>
+			<p>Para la instalación sobre Debian siga las intrucciones de la <a href="https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_Stretch">pagina oficial</a>.</p>
+	</section>
+</body>
+</html>
